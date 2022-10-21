@@ -1,0 +1,136 @@
+
+.hero__container{
+  margin-top: 150px;
+  display: flex;
+  max-width: 1110px;
+  justify-content: space-between;
+}
+.hero__left-span{
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+
+}
+.hero__left-span,.hero__left-item:hover{
+ color: darkblue;
+ cursor: pointer;
+
+}
+.hero__left-item{
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+opacity: 0.5;
+}
+.hero__line{
+  width: 255px;
+height: 1px;
+display: block;
+background: #83888F;
+opacity: 0.25;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.hero__right-title{
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #83888F;
+cursor: pointer;
+}
+.hero__list-title{
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+
+}
+.hero__list-text{
+  margin-top: 24px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+max-width: 172px;
+
+color: #333D4B
+}
+.hero__right-item{
+  margin-bottom: 88px;
+  margin-top: 65px;
+  max-width: 228px;
+height: 250px;
+  background: #F4F1EB;
+border-radius: 8px;
+}
+.hero__inner-box{
+  padding: 32px 28px 84px 28px;
+}
+.hero__right-list{
+  display: flex;
+ 
+}
+.hero__right-item + .hero__right-item{
+  margin-left: 23px;
+}
+.hero__right-item{
+  transition-duration: 0.6s;
+  display: inline-block;
+}
+.hero__right-item:hover{
+  background-color:yellowgreen;
+}
+.hero__right-item:active{
+  transition-duration: 0.1s;
+  background-color: #0E8784;
+}
+.hero__last-box{
+  background-color: #293038;
+}
+.hero__last-box::before{
+  content: "";
+  margin: 27px 64px;
+  background-image: url(../../img/last__box.png);
+  background-repeat: no-repeat;
+  width: 603px;
+  height: 154px;
+  display: inline-block;
+}
+.hero__last-lnk{
+
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+
+color: #FEFCF7;
+background-color: #0E8784;
+padding: 15px 35px;
+border-radius: 8px;
+margin-top: 40px;
+transition-duration: 500ms;
+transition-property: all;
+}
+.hero__last-lnk:hover{
+  padding-right: 100px;
+  background-color: blueviolet;
+}
+.hero__last-box2{
+  text-align: end;
+}

@@ -1,0 +1,39 @@
+@mixin font-style {
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+
+color: #83888F;
+}
+@mixin font-style2 {
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FEFCF7;
+}
+@mixin line-box {
+  background-color: #FDD6BA;
+height: 2px;
+  max-width: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin line {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: block;
+  border: 2px solid #186667;
+}

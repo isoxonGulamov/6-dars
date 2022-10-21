@@ -1,0 +1,59 @@
+.choose__list{
+  margin-top: 82px;
+  display: flex;
+  }
+  .choose__item + .choose__item{
+    margin-left: 95px;
+  }
+  .choose__title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+margin-top: 38px;
+color: #FEFCF7;
+}
+.choose__text{
+  @include font-style2;
+  opacity: 0.8;
+  margin-top: 42px;
+}
+
+.choose__box{
+    background-color: #293039;
+    padding: 85px 100px;
+  }
+  .choose__item{
+    max-width: 285px;
+  }
+  .choose__item:nth-child(1)::before{
+    content: "";
+    background-image: url(../../img/01.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 70px;
+    display: inline-block;
+  }
+  .choose__item:nth-child(2)::before{
+    content: "";
+    background-image: url(../../img/02.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 70px;
+    display: inline-block;
+  }
+  .choose__item:nth-child(3)::before{
+    content: "";
+    background-image: url(../../img/03.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 70px;
+    display: inline-block;
+  }
+  .choose__line-box{
+    @include line-box;
+  }
+  .choose__line{
+    @include line;
+  }

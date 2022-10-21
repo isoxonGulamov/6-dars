@@ -1,0 +1,31 @@
+.plan__img-block{
+  background-image: url(../../img/pan__img.jpg);
+  background-repeat: no-repeat;
+  padding: 117px 0;
+  border-radius: 10px;
+}
+.plan__title{
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: #FEFCF7;
+
+}
+.plan__text{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+max-width: 445px;
+color: #FEFCF7;
+}
+.plan__content-block{
+  padding-left: 85px;
+  margin-bottom: 168px;
+}
